@@ -71,14 +71,14 @@
             //                                         |  raise  |    ~    |   gui   |  lower  |
 
             bindings = <
-&bootloader  &kp F1    &kp F2            &kp F3        &kp F4     &kp F5                        &kp F6      &kp F7      &kp F8   &kp F9    &kp F10  &kp F11
-&trans       &trans    &kp LG(UP_ARROW)  &kp LG(DOWN)  &trans     &kp C_VOL_UP                  &kp K_CALC  &kp KP_NUM  &kp INS  &kp SLCK  &trans   &kp F12
-&trans       &kp LEFT  &kp UP            &kp DOWN      &kp RIGHT  &kp C_VOL_DN                  &trans      &kp H       &kp J    &kp K     &kp L    &trans
-&trans       &trans    &trans            &trans        &trans     &trans                        &trans      &trans      &trans   &trans    &trans   &trans
-                       &kp COMMA         &kp PERIOD                                                                     &trans   &trans
-                                                       &trans     &trans                        &trans      &trans
-                                                                  &trans        &trans  &trans  &trans
-                                                                  &trans        &trans  &trans  &trans
+&bootloader  &kp F1    &kp F2            &kp F3        &kp F4     &kp F5                  &kp F6  &kp F7      &kp F8   &kp F9    &kp F10  &kp F11
+&trans       &trans    &kp LG(UP_ARROW)  &kp LG(DOWN)  &trans     &trans                  &trans  &kp KP_NUM  &kp INS  &kp SLCK  &trans   &kp F12
+&trans       &kp LEFT  &kp UP            &kp DOWN      &kp RIGHT  &trans                  &trans  &kp H       &kp J    &kp K     &kp L    &trans
+&trans       &trans    &trans            &trans        &trans     &trans                  &trans  &trans      &trans   &trans    &trans   &trans
+                       &kp COMMA         &kp PERIOD                                                           &trans   &trans
+                                                       &trans     &trans                  &trans  &trans
+                                                                  &trans  &trans  &trans  &trans
+                                                                  &trans  &trans  &trans  &trans
             >;
         };
     };
