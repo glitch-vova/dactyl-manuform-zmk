@@ -76,7 +76,7 @@
 &trans       &kp LEFT  &kp UP            &kp DOWN      &kp RIGHT  &kp LEFT_PARENTHESIS                        &kp RIGHT_PARENTHESIS  &kp H       &kp J    &kp K     &kp L    &trans
 &trans       &trans    &trans            &trans        &trans     &trans                                      &trans                 &trans      &trans   &trans    &trans   &trans
                        &kp COMMA         &kp PERIOD                                                                                              &trans   &trans
-                                                       &trans     &trans                                      &trans                 &bt BT_CLR
+                                                       &trans     &trans                                      &bt BT_CLR_ALL         &bt BT_CLR
                                                                   &trans                &trans  &bt BT_SEL 0  &bt BT_SEL 1
                                                                   &trans                &trans  &bt BT_SEL 2  &bt BT_SEL 3
             >;
