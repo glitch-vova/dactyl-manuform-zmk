@@ -48,14 +48,14 @@
             //                                         |  raise  |    ~    |   gui   |  lower  |
 
             bindings = <
-&kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LG(F2)  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &bootloader
-&trans         &trans            &trans      &trans                                  &trans            &kp LEFT_BRACKET                         &kp RBKT           &kp KP_NUMBER_7  &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp KP_DIVIDE     &kp KP_ASTERISK
-&trans         &bt BT_PRV        &kp PG_UP   &kp PG_DN                               &kp END           &kp LPAR                                 &kp RPAR           &kp KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6   &kp MINUS         &kp PIPE
-&trans         &trans            &trans      &trans                                  &trans            &trans                                   &trans             &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp PLUS          &sys_reset
-                                 &trans      &kp PSCRN                                                                                                                              &kp KP_NUMBER_0   &kp DOT
-                                                                                     &trans            &trans                                   &trans             &trans
-                                                                                                       &bt BT_DISC 1     &bt BT_DISC 0  &trans  &trans
-                                                                                                       &bt BT_DISC 3     &bt BT_DISC 2  &trans  &trans
+&kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &bootloader
+&trans         &trans            &trans                             &trans                                  &trans            &kp LEFT_BRACKET                         &kp RBKT           &kp KP_NUMBER_7  &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp KP_DIVIDE     &kp KP_ASTERISK
+&trans         &bt BT_PRV        &kp PG_UP                          &kp PG_DN                               &kp END           &kp LPAR                                 &kp RPAR           &kp KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6   &kp MINUS         &kp PIPE
+&trans         &trans            &trans                             &trans                                  &trans            &trans                                   &trans             &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp PLUS          &sys_reset
+                                 &trans                             &kp PSCRN                                                                                                                              &kp KP_NUMBER_0   &kp DOT
+                                                                                                            &trans            &trans                                   &trans             &trans
+                                                                                                                              &bt BT_DISC 1     &bt BT_DISC 0  &trans  &trans
+                                                                                                                              &bt BT_DISC 3     &bt BT_DISC 2  &trans  &trans
             >;
         };
 
