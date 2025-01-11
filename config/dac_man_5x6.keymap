@@ -30,7 +30,7 @@
                                               &kp LEFT  &kp RIGHT                                                                                                                      &kp MINUS  &kp EQUAL
                                                                    &mt LGUI BACKSPACE  &mt LEFT_SHIFT SPACE                             &mt RSHFT KP_ENTER    &mt RIGHT_GUI BACKSPACE
                                                                                        &kp LEFT_ALT          &lt 2 KP_ENTER  &lt 1 F16  &mt RIGHT_ALT DELETE
-                                                                                       &kp LCTRL             &kp ESCAPE      &kp RCTRL  &kp C_AC_SEARCH
+                                                                                       &kp LCTRL             &kp ESCAPE      &kp LCTRL  &kp C_AC_SEARCH
             >;
         };
 
