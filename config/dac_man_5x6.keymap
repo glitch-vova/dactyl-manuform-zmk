@@ -1,7 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 #define DEFAULT 0
 #define RAISE   1
@@ -24,14 +23,14 @@
             //                                         |  Raise  |    ~    |   GUI   |  Lower  |
 
             bindings = <
-&kp GRAVE                             &kp N1  &kp N2    &kp N3     &kp N4              &kp N5                                                  &kp N6                &kp N7                   &kp N8     &kp N9     &kp N0         &kp RIGHT_BRACKET
-&kp TAB                               &kp Q   &kp W     &kp E      &kp R               &kp T                                                   &kp Y                 &kp U                    &kp I      &kp O      &kp P          &kp LEFT_BRACKET
-&kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp A   &kp S     &kp D      &kp F               &kp G                                                   &kp H                 &kp J                    &kp K      &kp L      &kp SEMICOLON  &kp SQT
-&kp LSHIFT                            &kp Z   &kp X     &kp C      &kp V               &kp B                                                   &kp N                 &kp M                    &kp COMMA  &kp DOT    &kp FSLH       &kp NON_US_BACKSLASH
-                                              &kp LEFT  &kp RIGHT                                                                                                                             &kp MINUS  &kp EQUAL
-                                                                   &mt LGUI BACKSPACE  &mt LEFT_SHIFT SPACE                                    &mt RSHFT KP_ENTER    &mt RIGHT_GUI BACKSPACE
-                                                                                       &kp LEFT_ALT          &lt 2 KP_ENTER  &lt 1 F16         &mt RIGHT_ALT DELETE
-                                                                                       &kp LCTRL             &kp ESCAPE      &kt LEFT_CONTROL  &kp C_AC_SEARCH
+&kp GRAVE                             &kp N1  &kp N2    &kp N3     &kp N4              &kp N5                                           &kp N6                &kp N7                   &kp N8     &kp N9     &kp N0         &kp RIGHT_BRACKET
+&kp TAB                               &kp Q   &kp W     &kp E      &kp R               &kp T                                            &kp Y                 &kp U                    &kp I      &kp O      &kp P          &kp LEFT_BRACKET
+&kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp A   &kp S     &kp D      &kp F               &kp G                                            &kp H                 &kp J                    &kp K      &kp L      &kp SEMICOLON  &kp SQT
+&kp LSHIFT                            &kp Z   &kp X     &kp C      &kp V               &kp B                                            &kp N                 &kp M                    &kp COMMA  &kp DOT    &kp FSLH       &kp NON_US_BACKSLASH
+                                              &kp LEFT  &kp RIGHT                                                                                                                      &kp MINUS  &kp EQUAL
+                                                                   &mt LGUI BACKSPACE  &mt LEFT_SHIFT SPACE                             &mt RSHFT KP_ENTER    &mt RIGHT_GUI BACKSPACE
+                                                                                       &kp LEFT_ALT          &lt 2 KP_ENTER  &lt 1 F16  &mt RIGHT_ALT DELETE
+                                                                                       &kp LCTRL             &kp ESCAPE      &kp RCTRL  &kp C_AC_SEARCH
             >;
         };
 
