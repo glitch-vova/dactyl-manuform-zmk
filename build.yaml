@@ -11,11 +11,17 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
----
-include:
-  - board: nice_nano_v2
-    shield: dac_man_5x6_left
-  - board: nice_nano_v2
-    shield: dac_man_5x6_right
-  - board: nice_nano_v2
-    shield: settings_reset
+# ---
+# include:
+#  - board: nice_nano_v2
+#    shield: dac_man_5x6_left
+#  - board: nice_nano_v2
+#    shield: dac_man_5x6_right
+#  - board: nice_nano_v2
+#    shield: settings_reset
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
