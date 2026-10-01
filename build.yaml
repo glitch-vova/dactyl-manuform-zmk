@@ -14,9 +14,9 @@
 
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: dac_man_5x6_left
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: dac_man_5x6_right
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: settings_reset
