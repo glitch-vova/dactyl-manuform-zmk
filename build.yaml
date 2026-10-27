@@ -16,6 +16,8 @@
 include:
   - board: nice_nano//zmk
     shield: dac_man_5x6_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: dac_man_5x6_right
   - board: nice_nano//zmk
